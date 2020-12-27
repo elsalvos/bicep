@@ -14,7 +14,7 @@
       <Version>3.2.31</Version>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0"/>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2"/>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118"/>
   </ItemGroup>
 
