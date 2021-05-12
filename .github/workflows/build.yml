@@ -43,7 +43,7 @@ jobs:
           publishLanguageServer: 'false'
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
 
@@ -90,7 +90,7 @@ jobs:
     needs: build-bicep
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
 
@@ -120,7 +120,7 @@ jobs:
     needs: build-bicep
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
 
@@ -159,7 +159,7 @@ jobs:
     runs-on: 'ubuntu-latest'
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0 # avoid shallow clone so nbgv can do its work.
 
