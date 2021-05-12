@@ -210,7 +210,7 @@ jobs:
           prerelease: false
 
       - name: Upload bicep-win-x64.exe
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -220,7 +220,7 @@ jobs:
           asset_content_type: binary/octet-stream
 
       - name: Upload bicep-linux-x64
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -230,7 +230,7 @@ jobs:
           asset_content_type: binary/octet-stream
 
       - name: Upload bicep-osx-x64
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -240,7 +240,7 @@ jobs:
           asset_content_type: binary/octet-stream
 
       - name: Upload vscode-bicep.vsix
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -250,7 +250,7 @@ jobs:
           asset_content_type: binary/octet-stream
       
       - name: Upload bicep-setup-win-x64.exe
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
